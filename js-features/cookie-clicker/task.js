@@ -9,10 +9,11 @@ cookieSizes.addEventListener('click', function(){
     clickerKiller.textContent = counter; 
  
     if (counter % 2 == 0) { 
-    cookieSizes.width = '200';
+    cookieSizes.width = '250';
     }  
-    if (counter % 2 !== 0)  
+    if (counter % 2 !== 0) {
     cookieSizes.width = '230';
+    }
 });  
 
 
