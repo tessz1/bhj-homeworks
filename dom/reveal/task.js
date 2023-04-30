@@ -20,7 +20,3 @@ function revealOnScroll() {
 
 window.addEventListener('scroll', revealOnScroll);
 
-    // setInterval(() =>{
-    //     let revevalisActive = revevalis.getBoundingClientRect()
-    //     console.log(revevalisActive)
-    // },1000)
